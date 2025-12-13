@@ -1,0 +1,233 @@
+/* ============================================
+   PHASE I: GLOBAL SETUP AND FIXED NAVIGATION
+   ============================================ */
+
+/* Step 1: Import Google Font 'Inter' */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
+
+/* Step 2-4: Global Setup */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #111111;
+  color: #FFFFFF;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Step 5: Style all anchor tags */
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056cc;
+}
+
+/* Step 6: Style all headings */
+h1,
+h2,
+h3 {
+  font-weight: 900;
+}
+
+/* ============================================
+   NAVIGATION BAR SETUP
+   ============================================ */
+
+/* Step 7-9: Header as Fixed Navigation Bar */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #181818;
+  z-index: 100;
+  border-bottom: 1px solid #333;
+}
+
+/* Step 10-11: Navigation container with Flexbox */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 100%;
+  padding: 0 40px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 0;
+  gap: 30px;
+}
+
+/* Step 12: Style navigation links */
+nav a {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+/* Step 13: Hover effect for navigation links */
+nav a:hover {
+  color: #007bff;
+  transform: scale(1.05);
+}
+
+/* Step 15: Main content container with top padding */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 100px 20px;
+}
+
+.main-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* ============================================
+   PHASE II: CORE STRUCTURE & LAYOUT
+   ============================================ */
+
+/* Step 16: Ensure generous vertical padding on main */
+main {
+  padding: 100px 20px;
+}
+
+/* Steps 17-21: Profile Summary Section */
+#profile-summary {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 40px 0;
+}
+
+#profile-summary img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 6px 18px rgba(255, 255, 255, 0.06);
+  flex: 0 0 250px;
+}
+
+#profile-summary > *:not(img) {
+  padding-left: 50px;
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 800px) {
+  #profile-summary {
+    flex-direction: column;
+    text-align: center;
+  }
+  #profile-summary img {
+    margin-bottom: 20px;
+  }
+  #profile-summary > *:not(img) {
+    padding-left: 0;
+  }
+}
+
+/* Steps 22-24: Typography and Text Polish */
+#profile-summary h1 {
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  position: relative;
+  display: inline-block;
+}
+
+#profile-summary h1::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  height: 2px;
+  width: 0;
+  background: #007bff;
+  transition: width 220ms ease;
+}
+
+#profile-summary h1:hover::after {
+  width: 100%;
+}
+
+#profile-summary p {
+  color: #aaa;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-top: 0.5rem;
+}
+
+/* Steps 25-30: Footer and Required Links */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #080808;
+  padding: 12px 20px;
+  z-index: 50;
+  border-top: 1px solid #1a1a1a;
+}
+
+footer .footer-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.required-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.required-links a {
+  color: #007bff;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 180ms ease, font-weight 180ms ease, transform 180ms ease;
+  font-weight: 600;
+}
+
+.required-links a::before {
+  display: inline-block;
+  width: 18px;
+  text-align: center;
+  margin-right: 6px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.required-links a.linkedin::before { content: 'in'; background: transparent; }
+.required-links a.github::before { content: 'GH'; }
+.required-links a.email::before { content: '✉'; }
+
+.required-links a:hover {
+  color: #339bff;
+  font-weight: 800;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 600px) {
+  footer .footer-inner {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
