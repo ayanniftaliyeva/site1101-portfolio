@@ -1,13 +1,22 @@
-title: Ayan Niftaliyeva | Portfolio
+# Site settings
+title: Ayan Niftaliyeva | Systems Architect & Event Leader
+description: Information Systems Student at ADA University | SITE 1101
 theme: jekyll-theme-minimal
-description: Information Systems Student at ADA University
-logo: /assets/images/profile-photo.jpeg
+logo: /site1101-portfolio/assets/images/portfolio-photo.jpeg
 
-# Mandatory Profile Links for Footer Icons
-github_username: ayanniftaliyeva
-codecademy_username: ayashka25918
+# GitHub Pages Configuration
+baseurl: "/site1101-portfolio"
+url: "https://ayashka-25918.github.io"
+
+# Social Media Handles (Footer Icons)
+github_username: ayashka-25918
 linkedin_username: ayan-niftaliyeva-5955a039a
-
-# Custom Variables for our chic design
 email: aniftaliyeva25918@ada.edu.az
-repo_url: https://github.com/ayanniftaliyeva/site1101-portfolio
+
+# Repository Info
+repo_url: https://github.com/ayashka-25918/site1101-portfolio
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
