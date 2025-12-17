@@ -58,4 +58,4 @@ I'm building a foundation as a systems architect today so that tomorrow I can sc
 
 ---
 
-**[← Back to Home](./index.html) | [View My Projects →](./projects.html) | [Check Out My Inspiration →](./inspiration.html)**
+[← Back to Home](./index.html) | [View My Projects →](./projects.html) | [Check Out My Inspiration →](./inspiration.html)

@@ -87,4 +87,4 @@ Through diverse volunteer roles at international conferences and large-scale eve
 
 ---
 
-**[← Back to Home](./index.html) | [View My Vision Board →](./inspiration.html)**
+[← Back to Home](./index.html) | [View My Vision Board →](./inspiration.html)

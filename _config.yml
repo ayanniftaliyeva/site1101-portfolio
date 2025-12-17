@@ -6,15 +6,15 @@ logo: /site1101-portfolio/assets/images/portfolio-photo.jpeg
 
 # GitHub Pages Configuration
 baseurl: "/site1101-portfolio"
-url: "https://ayashka-25918.github.io"
+url: "https://ayanniftaliyeva.github.io"
 
 # Social Media Handles (Footer Icons)
-github_username: ayashka-25918
+github_username: ayanniftaliyeva
 linkedin_username: ayan-niftaliyeva-5955a039a
 email: aniftaliyeva25918@ada.edu.az
 
 # Repository Info
-repo_url: https://github.com/ayashka-25918/site1101-portfolio
+repo_url: https://github.com/ayanniftaliyeva/site1101-portfolio
 
 # Build Settings
 markdown: kramdown

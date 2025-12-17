@@ -9,7 +9,7 @@ title: Home
 ---
 
 ## Professional Navigation
-**[About Me](./about.html) | [Projects & Experience](./projects.html) | [Vision Board](./inspiration.html) | [LinkedIn](https://www.linkedin.com/in/ayan-niftaliyeva-5955a039a/) | [GitHub](https://github.com/ayashka-25918/site1101-portfolio) | [Email](mailto:aniftaliyeva25918@ada.edu.az)**
+[About Me](./about.html) | [Projects & Experience](./projects.html) | [Vision Board](./inspiration.html) | [LinkedIn](https://www.linkedin.com/in/ayan-niftaliyeva-5955a039a/) | [GitHub](https://github.com/ayashka-25918/site1101-portfolio) | [Email](mailto:aniftaliyeva25918@ada.edu.az)
 
 ---
 

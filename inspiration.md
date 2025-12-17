@@ -111,4 +111,4 @@ These images remind me daily of the **kind of leader, innovator, and human** I'm
 
 ---
 
-**[← Back to Home](./index.html) | [View My Projects →](./projects.html) | [Learn About Me →](./about.html)**
+[← Back to Home](./index.html) | [View My Projects →](./projects.html) | [Learn About Me →](./about.html)
