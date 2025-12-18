@@ -96,7 +96,11 @@
     }
     // update toggle icon if present
     const btn = document.getElementById('theme-toggle');
-    if(btn) btn.textContent = theme === 'dark' ? '🌙' : '☀️';
+    if(btn){
+      btn.textContent = theme === 'dark' ? '🌙' : '☀️';
+      btn.setAttribute('aria-pressed', theme === 'dark' ? 'true' : 'false');
+      btn.setAttribute('title', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+    }
   }
 
   function initTheme(){

@@ -34,8 +34,7 @@ title: Home
   </aside>
   <div class="content">
 
-# Ayan Niftaliyeva
-## Systems Architect • Event Leader • Information Systems Student
+Systems Architect • Event Leader • Information Systems Student
 
 ---
 

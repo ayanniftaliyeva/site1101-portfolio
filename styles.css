@@ -14,8 +14,8 @@
 
 /* Dark / Night theme variables (activated via `data-theme="dark"` on <html>) */
 [data-theme="dark"] {
-  --bg: #0b0c0f;
-  --text: #f5f6f7;
+  --bg: #121212; /* charcoal */
+  --text: #f6f5f4; /* off-white */
   --muted: #b8b8bd;
   --light-border: rgba(255,255,255,0.06);
 }
@@ -438,7 +438,7 @@ footer p {
 /* Masonry-like vision grid using CSS columns */
 .vision-grid{column-count:3;column-gap:18px;margin:40px 0}
 .vision-grid .item{break-inside:avoid;display:block;margin-bottom:18px}
-.vision-grid img{width:100%;height:auto;display:block;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+.vision-grid img{width:100%;height:auto;display:block;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
 @media (max-width:900px){.vision-grid{column-count:2}}
 @media (max-width:600px){.vision-grid{column-count:1}}
 

@@ -20,8 +20,6 @@ title: Inspiration & Vision
   </nav>
 </header>
 
-# My Vision Board
-
 This gallery represents my inspirations, aspirations, and the visual language that drives my work. Each image reflects a value, aesthetic, or future possibility that motivates me to build, lead, and create with intention.
 
 ---

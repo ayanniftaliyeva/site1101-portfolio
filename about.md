@@ -34,9 +34,7 @@ title: About Me
 	</aside>
 	<div class="content">
 
-# About Me
-
-I am a **Freshman in the School of IT and Engineering (SITE)** at ADA University, driven by a passion for building systems that matter. As a natural perfectionist, I approach every project with disciplined study and thoughtful strategy.
+# I am a **Freshman in the School of IT and Engineering (SITE)** at ADA University, driven by a passion for building systems that matter. As a natural perfectionist, I approach every project with disciplined study and thoughtful strategy.
 
 ---
 

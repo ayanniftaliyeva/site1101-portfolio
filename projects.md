@@ -34,9 +34,7 @@ title: Projects & Experience
   </aside>
   <div class="content">
 
-# Projects & Experiences
-
-My work reflects my commitment to **systems thinking, technical excellence, and human-centered design**. Below are key projects that demonstrate my capabilities across event leadership, technical programming, and strategic collaboration.
+# My work reflects my commitment to **systems thinking, technical excellence, and human-centered design**. Below are key projects that demonstrate my capabilities across event leadership, technical programming, and strategic collaboration.
 
 ---
 
@@ -51,7 +49,7 @@ I led the development of an interactive simulation that demystifies foundational
 - Implemented input validation and error handling
 - Created interactive visualizations for logic gate behavior
 
-**Technical Skills:** Logic design, UI/UX, user testing, validation systems
+**Technical Skills:** Logic design, user testing, validation systems
 
 <div style="max-width: 100%; margin: 20px 0;">
   <video width="100%" controls style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
@@ -73,7 +71,7 @@ I coordinated and facilitated an Hour of Code event focused on teaching algorith
 - Facilitated hands-on coding sessions and provided mentorship
 - Documented the event through photography and videography
 
-**Impact:** Engaged 23 students from suburban areas to strengthen algorithmic thinking
+**Impact:** Managed 23 students from suburban/rural areas (merkez olmayan) using core Information Systems principles to strengthen algorithmic thinking
 
 <img src="{{ site.baseurl }}/assets/images/hoc-photo.jpeg" alt="Hour of Code Event" style="width: 100%; border-radius: 12px; box-shadow: 0 6px 18px rgba(0,0,0,0.08); margin: 20px 0;">
 
