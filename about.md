@@ -6,7 +6,7 @@ title: About Me
 <header>
 	<nav>
 		<div class="nav-inner">
-			<div class="brand"><a href="{{ site.baseurl }}/index.html">Ayan</a></div>
+			<div class="brand"><a href="{{ site.baseurl }}/index.html"><img src="{{ site.baseurl }}/assets/images/portfolio-photo.jpeg" alt="Ayan" style="width:28px;height:28px;border-radius:50%;object-fit:cover;margin-right:8px;vertical-align:middle">Ayan</a></div>
 			<ul class="nav-links">
 				<li><a href="{{ site.baseurl }}/index.html"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 10.5L12 4l9 6.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 21V12h6v9" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Home</a></li>
 				<li><a href="{{ site.baseurl }}/about.html"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="7" r="4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>About</a></li>
@@ -19,6 +19,20 @@ title: About Me
 		</div>
 	</nav>
 </header>
+
+<div class="layout-with-sidebar">
+	<aside class="sidebar">
+		<img src="{{ site.baseurl }}/assets/images/portfolio-photo.jpeg" alt="Ayan Niftaliyeva" class="profile-photo">
+		<nav class="sidebar-nav" aria-label="Primary">
+			<ul>
+				<li><a href="{{ site.baseurl }}/index.html">Home</a></li>
+				<li><a href="{{ site.baseurl }}/about.html">About</a></li>
+				<li><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
+				<li><a href="{{ site.baseurl }}/inspiration.html">Vision Board</a></li>
+			</ul>
+		</nav>
+	</aside>
+	<div class="content">
 
 # About Me
 
@@ -81,4 +95,5 @@ I'm building a foundation as a systems architect today so that tomorrow I can sc
 		<li><a href="{{ site.baseurl }}/projects.html">Projects &amp; Experience</a></li>
 		<li><a href="{{ site.baseurl }}/inspiration.html">Vision Board</a></li>
 	</ul>
-</nav>
+</div>
+</div>

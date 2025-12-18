@@ -6,7 +6,7 @@ title: Inspiration & Vision
 <header>
   <nav>
     <div class="nav-inner">
-      <div class="brand"><a href="{{ site.baseurl }}/index.html">Ayan</a></div>
+      <div class="brand"><a href="{{ site.baseurl }}/index.html"><img src="{{ site.baseurl }}/assets/images/portfolio-photo.jpeg" alt="Ayan" style="width:28px;height:28px;border-radius:50%;object-fit:cover;margin-right:8px;vertical-align:middle">Ayan</a></div>
       <ul class="nav-links">
         <li><a href="{{ site.baseurl }}/index.html"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 10.5L12 4l9 6.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 21V12h6v9" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Home</a></li>
         <li><a href="{{ site.baseurl }}/about.html"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="7" r="4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>About</a></li>
@@ -25,14 +25,19 @@ title: Inspiration & Vision
 This gallery represents my inspirations, aspirations, and the visual language that drives my work. Each image reflects a value, aesthetic, or future possibility that motivates me to build, lead, and create with intention.
 
 ---
-
-<style>
-.vision-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:40px 0;}
-.vision-grid img{width:100%;height:auto;display:block;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.06);}
-.vision-grid .item{overflow:hidden;border-radius:8px;background:#f7f7f7;padding:6px}
-@media (max-width:900px){.vision-grid{grid-template-columns:repeat(2,1fr)}}
-@media (max-width:600px){.vision-grid{grid-template-columns:1fr}}
-</style>
+<div class="layout-with-sidebar">
+  <aside class="sidebar">
+    <img src="{{ site.baseurl }}/assets/images/portfolio-photo.jpeg" alt="Ayan Niftaliyeva" class="profile-photo">
+    <nav class="sidebar-nav" aria-label="Primary">
+      <ul>
+        <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
+        <li><a href="{{ site.baseurl }}/about.html">About</a></li>
+        <li><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
+        <li><a href="{{ site.baseurl }}/inspiration.html">Vision Board</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <div class="content">
 
 <div class="vision-grid">
   <div class="item"><img src="{{ site.baseurl }}/assets/images/vision1.jpg" alt="Vision 1"></div>
@@ -81,3 +86,6 @@ These images remind me daily of the **kind of leader, innovator, and human** I'm
     <li><a href="{{ site.baseurl }}/about.html">About</a></li>
   </ul>
 </nav>
+
+</div>
+</div>

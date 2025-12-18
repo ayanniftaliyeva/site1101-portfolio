@@ -6,7 +6,7 @@ title: Projects & Experience
 <header>
   <nav>
     <div class="nav-inner">
-      <div class="brand"><a href="{{ site.baseurl }}/index.html">Ayan</a></div>
+      <div class="brand"><a href="{{ site.baseurl }}/index.html"><img src="{{ site.baseurl }}/assets/images/portfolio-photo.jpeg" alt="Ayan" style="width:28px;height:28px;border-radius:50%;object-fit:cover;margin-right:8px;vertical-align:middle">Ayan</a></div>
       <ul class="nav-links">
         <li><a href="{{ site.baseurl }}/index.html"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 10.5L12 4l9 6.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 21V12h6v9" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Home</a></li>
         <li><a href="{{ site.baseurl }}/about.html"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="7" r="4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>About</a></li>
@@ -19,6 +19,20 @@ title: Projects & Experience
     </div>
   </nav>
 </header>
+
+<div class="layout-with-sidebar">
+  <aside class="sidebar">
+    <img src="{{ site.baseurl }}/assets/images/portfolio-photo.jpeg" alt="Ayan Niftaliyeva" class="profile-photo">
+    <nav class="sidebar-nav" aria-label="Primary">
+      <ul>
+        <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
+        <li><a href="{{ site.baseurl }}/about.html">About</a></li>
+        <li><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
+        <li><a href="{{ site.baseurl }}/inspiration.html">Vision Board</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <div class="content">
 
 # Projects & Experiences
 
@@ -51,20 +65,20 @@ I led the development of an interactive simulation that demystifies foundational
 ## Hour of Code (HOC) Event
 ### Strengthening Algorithmic Thinking & Digital Literacy
 
-I coordinated and facilitated a successful Hour of Code event, bringing computer science education to peers and the broader community.
+I coordinated and facilitated an Hour of Code event focused on teaching algorithmic thinking to students from outside the city center.
 
 **What I Did:**
 - Organized event logistics and volunteer coordination
-- Designed curriculum for mixed-skill-level participants
+- Implemented core knowledge from our Information Systems course to build the project's technical and instructional framework
 - Facilitated hands-on coding sessions and provided mentorship
-- Captured the energy and impact of the event through photography and videography
+- Documented the event through photography and videography
 
-**Impact:** Engaged 50+ participants in algorithmic thinking, increased digital literacy awareness
+**Impact:** Engaged 23 students from suburban areas to strengthen algorithmic thinking
 
-<img src="{{ site.baseurl }}/assets/images/hoc-photo.jpeg" alt="Hour of Code Event" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin: 20px 0;">
+<img src="{{ site.baseurl }}/assets/images/hoc-photo.jpeg" alt="Hour of Code Event" style="width: 100%; border-radius: 12px; box-shadow: 0 6px 18px rgba(0,0,0,0.08); margin: 20px 0;">
 
 <div style="max-width: 100%; margin: 20px 0;">
-  <video width="100%" controls style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <video width="100%" controls style="border-radius: 12px; box-shadow: 0 6px 18px rgba(0,0,0,0.08);">
     <source src="{{ site.baseurl }}/assets/images/hoc-video.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
@@ -110,3 +124,6 @@ Through diverse volunteer roles at international conferences and large-scale eve
     <li><a href="{{ site.baseurl }}/inspiration.html">Vision Board</a></li>
   </ul>
 </nav>
+
+</div>
+</div>
