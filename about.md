@@ -3,37 +3,28 @@ layout: default
 title: About Me
 ---
 
-<a class="skip-link" href="#main-content">Skip to content</a>
-<header>
-	<nav>
-		<div class="nav-inner">
-			<div class="brand"><a href="{{ site.baseurl }}/index.html"><img src="{{ site.baseurl }}/assets/images/portfolio-photo.jpeg" alt="Ayan" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle"></a></div>
-			<ul class="nav-links">
-				<li><a href="{{ site.baseurl }}/index.html">Home</a></li>
-				<li><a href="{{ site.baseurl }}/about.html">About</a></li>
-				<li><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
-				<li><a href="{{ site.baseurl }}/inspiration.html">Vision Board</a></li>
-			</ul>
-			<div class="nav-actions">
-				<button id="theme-toggle" class="theme-toggle" aria-label="Toggle day night">🌙</button>
-			</div>
-		</div>
-	</nav>
+<link rel="stylesheet" href="{{ site.baseurl }}/clean.css">
+<header class="top-nav">
+  <div class="inner">
+    <div class="brand"><a href="{{ site.baseurl }}/index.html">Ayan</a></div>
+    <nav class="center-nav">
+      <a href="{{ site.baseurl }}/index.html">Home</a>
+      <a href="{{ site.baseurl }}/about.html">About</a>
+      <a href="{{ site.baseurl }}/projects.html">Projects</a>
+      <a href="{{ site.baseurl }}/inspiration.html">Inspiration</a>
+    </nav>
+    <div class="right"><button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌙</button></div>
+  </div>
 </header>
 
-	<div class="layout-with-sidebar">
-	<aside class="sidebar sticky">
+<div class="site-wrapper">
+	<aside class="sidebar">
 		<img src="{{ site.baseurl }}/assets/images/portfolio-photo.jpeg" alt="Ayan Niftaliyeva" class="profile-photo">
-		<div class="sidebar-name">Systems Architect</div>
-		<div class="sidebar-fullname">Ayan Niftaliyeva</div>
-		<nav class="sidebar-nav" aria-label="Primary">
-			<ul>
-				<li><a href="{{ site.baseurl }}/index.html">Home</a></li>
-				<li><a href="{{ site.baseurl }}/about.html">About</a></li>
-				<li><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
-				<li><a href="{{ site.baseurl }}/inspiration.html">Vision Board</a></li>
-			</ul>
-		</nav>
+		<div class="socials">
+			<a href="https://github.com/{{ site.github_username }}" target="_blank">GitHub</a>
+			<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank">LinkedIn</a>
+			<a href="mailto:{{ site.email }}">Email</a>
+		</div>
 	</aside>
 	<div class="content" id="main-content">
 

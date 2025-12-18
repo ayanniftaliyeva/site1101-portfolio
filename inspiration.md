@@ -2,75 +2,56 @@
 layout: default
 title: Inspiration & Vision
 ---
-<a class="skip-link" href="#main-content">Skip to content</a>
-<header>
-  <nav>
-    <div class="nav-inner">
-      <div class="brand"><a href="{{ site.baseurl }}/index.html"><img src="{{ site.baseurl }}/assets/images/portfolio-photo.jpeg" alt="Ayan" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle"></a></div>
-      <ul class="nav-links">
-        <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
-        <li><a href="{{ site.baseurl }}/about.html">About</a></li>
-        <li><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
-        <li><a href="{{ site.baseurl }}/inspiration.html">Vision Board</a></li>
-      </ul>
-      <div class="nav-actions">
-        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle day night">🌙</button>
-      </div>
-    </div>
-  </nav>
+<link rel="stylesheet" href="{{ site.baseurl }}/clean.css">
+<header class="top-nav">
+  <div class="inner">
+    <div class="brand"><a href="{{ site.baseurl }}/index.html">Ayan</a></div>
+    <nav class="center-nav">
+      <a href="{{ site.baseurl }}/index.html">Home</a>
+      <a href="{{ site.baseurl }}/about.html">About</a>
+      <a href="{{ site.baseurl }}/projects.html">Projects</a>
+      <a href="{{ site.baseurl }}/inspiration.html">Inspiration</a>
+    </nav>
+    <div class="right"><button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌙</button></div>
+  </div>
 </header>
 
 This gallery represents my inspirations, aspirations, and the visual language that drives my work. Each image reflects a value, aesthetic, or future possibility that motivates me to build, lead, and create with intention.
 
 ---
-<div class="layout-with-sidebar">
-  <aside class="sidebar sticky">
+<div class="site-wrapper">
+  <aside class="sidebar">
     <img src="{{ site.baseurl }}/assets/images/portfolio-photo.jpeg" alt="Ayan Niftaliyeva" class="profile-photo">
-    <div class="sidebar-name">Systems Architect</div>
-    <div class="sidebar-fullname">Ayan Niftaliyeva</div>
-    <nav class="sidebar-nav" aria-label="Primary">
-      <ul>
-        <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
-        <li><a href="{{ site.baseurl }}/about.html">About</a></li>
-        <li><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
-        <li><a href="{{ site.baseurl }}/inspiration.html">Vision Board</a></li>
-      </ul>
-    </nav>
+    <div class="socials">
+      <a href="https://github.com/{{ site.github_username }}" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank">LinkedIn</a>
+      <a href="mailto:{{ site.email }}">Email</a>
+    </div>
   </aside>
   <div class="content" id="main-content">
 
-<div class="vision-grid">
-  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision1.jpg" alt="Vision 1"></div>
-  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision2.jpg" alt="Vision 2"></div>
-
-      <footer class="site-footer">
-        <div class="main">
-          <p>© {{ site.title | default: "Ayan Niftaliyeva" }} — <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-          <p>
-            <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a>
-            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener">LinkedIn</a>
-          </p>
-        </div>
-      </footer>
-  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision3.jpg" alt="Vision 3"></div>
-  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision4.jpg" alt="Vision 4"></div>
-  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision5.jpg" alt="Vision 5"></div>
-  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision6.jpg" alt="Vision 6"></div>
-  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision7.jpg" alt="Vision 7"></div>
-  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision8.jpg" alt="Vision 8"></div>
-  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision9.jpg" alt="Vision 9"></div>
-  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision10.jpg" alt="Vision 10"></div>
-  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision11.jpg" alt="Vision 11"></div>
-  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision12.jpg" alt="Vision 12"></div>
-  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision13.jpg" alt="Vision 13"></div>
-  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision14.jpg" alt="Vision 14"></div>
-  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision15.jpg" alt="Vision 15"></div>
-  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision16.jpg" alt="Vision 16"></div>
-  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision17.jpg" alt="Vision 17"></div>
-  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision18.jpg" alt="Vision 18"></div>
-  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision19.jpg" alt="Vision 19"></div>
-  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision20.jpg" alt="Vision 20"></div>
-  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision21.jpg" alt="Vision 21"></div>
+<div class="masonry">
+  <div class="masonry-item"><img src="{{ site.baseurl }}/assets/images/vision1.jpg" alt="Vision 1"></div>
+  <div class="masonry-item"><img src="{{ site.baseurl }}/assets/images/vision2.jpg" alt="Vision 2"></div>
+  <div class="masonry-item"><img src="{{ site.baseurl }}/assets/images/vision3.jpg" alt="Vision 3"></div>
+  <div class="masonry-item"><img src="{{ site.baseurl }}/assets/images/vision4.jpg" alt="Vision 4"></div>
+  <div class="masonry-item"><img src="{{ site.baseurl }}/assets/images/vision5.jpg" alt="Vision 5"></div>
+  <div class="masonry-item"><img src="{{ site.baseurl }}/assets/images/vision6.jpg" alt="Vision 6"></div>
+  <div class="masonry-item"><img src="{{ site.baseurl }}/assets/images/vision7.jpg" alt="Vision 7"></div>
+  <div class="masonry-item"><img src="{{ site.baseurl }}/assets/images/vision8.jpg" alt="Vision 8"></div>
+  <div class="masonry-item"><img src="{{ site.baseurl }}/assets/images/vision9.jpg" alt="Vision 9"></div>
+  <div class="masonry-item"><img src="{{ site.baseurl }}/assets/images/vision10.jpg" alt="Vision 10"></div>
+  <div class="masonry-item"><img src="{{ site.baseurl }}/assets/images/vision11.jpg" alt="Vision 11"></div>
+  <div class="masonry-item"><img src="{{ site.baseurl }}/assets/images/vision12.jpg" alt="Vision 12"></div>
+  <div class="masonry-item"><img src="{{ site.baseurl }}/assets/images/vision13.jpg" alt="Vision 13"></div>
+  <div class="masonry-item"><img src="{{ site.baseurl }}/assets/images/vision14.jpg" alt="Vision 14"></div>
+  <div class="masonry-item"><img src="{{ site.baseurl }}/assets/images/vision15.jpg" alt="Vision 15"></div>
+  <div class="masonry-item"><img src="{{ site.baseurl }}/assets/images/vision16.jpg" alt="Vision 16"></div>
+  <div class="masonry-item"><img src="{{ site.baseurl }}/assets/images/vision17.jpg" alt="Vision 17"></div>
+  <div class="masonry-item"><img src="{{ site.baseurl }}/assets/images/vision18.jpg" alt="Vision 18"></div>
+  <div class="masonry-item"><img src="{{ site.baseurl }}/assets/images/vision19.jpg" alt="Vision 19"></div>
+  <div class="masonry-item"><img src="{{ site.baseurl }}/assets/images/vision20.jpg" alt="Vision 20"></div>
+  <div class="masonry-item"><img src="{{ site.baseurl }}/assets/images/vision21.jpg" alt="Vision 21"></div>
 </div>
 
 ---
