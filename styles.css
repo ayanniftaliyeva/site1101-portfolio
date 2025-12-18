@@ -42,6 +42,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+/* Skip link for accessibility */
+.skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
+.skip-link:focus{position:static;left:0;top:8px;width:auto;height:auto;padding:8px 12px;background:var(--text);color:var(--bg);z-index:3000;border-radius:6px}
+
 @media (prefers-reduced-motion: reduce) {
   * {
     animation: none !important;
@@ -428,6 +432,10 @@ footer p {
 .sidebar-nav a{display:block;padding:0.35rem 0;color:var(--muted);font-weight:700;text-align:left;border-radius:6px;text-transform:uppercase;letter-spacing:0.12em;font-size:0.82rem;padding-left:6px}
 .sidebar-nav a:hover{background:rgba(0,0,0,0.03);color:var(--text)}
 .sidebar-nav a.active{color:var(--text);font-weight:900}
+
+/* Active indicator: small bar on the left of the active link */
+.sidebar-nav a.active{position:relative}
+.sidebar-nav a.active::before{content:'';position:absolute;left:-10px;top:50%;transform:translateY(-50%);width:4px;height:14px;background:var(--text);border-radius:2px}
 .content{max-width:680px;padding-left:0}
 
 /* Sidebar name block */
@@ -467,6 +475,14 @@ footer p {
 .vision-grid{column-count:3;column-gap:12px;margin:28px 0}
 .vision-grid .item{break-inside:avoid;display:block;margin-bottom:12px}
 .vision-grid img{width:100%;height:auto;display:block;border-radius:8px;box-shadow:0 6px 18px rgba(16,20,24,0.06)}
+
+/* Make typography more editorial */
+h2,h3{color:var(--text)}
+p,li{color:var(--muted)}
+
+/* Footer */
+footer.site-footer{margin-top:4rem;border-top:1px solid var(--light-border);padding-top:2rem;color:var(--muted);font-size:0.95rem}
+footer.site-footer a{color:var(--text);margin-right:1rem}
 @media (max-width:900px){.vision-grid{column-count:2}}
 @media (max-width:600px){.vision-grid{column-count:1}}
 

@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-
+<a class="skip-link" href="#main-content">Skip to content</a>
 <header>
   <nav>
     <div class="nav-inner">
@@ -20,7 +20,7 @@ title: Home
   </nav>
 </header>
 
-<div class="layout-with-sidebar">
+  <div class="layout-with-sidebar">
   <aside class="sidebar sticky">
     <img src="{{ site.baseurl }}/assets/images/portfolio-photo.jpeg" alt="Ayan Niftaliyeva" class="profile-photo">
     <div class="sidebar-name">Systems Architect</div>
@@ -34,7 +34,7 @@ title: Home
       </ul>
     </nav>
   </aside>
-  <div class="content">
+  <div class="content" id="main-content">
 
 Systems Architect • Event Leader • Information Systems Student
 
@@ -62,3 +62,13 @@ Explore my [**projects and experiences**](./projects.html) to see how I apply th
 
 </div>
 </div>
+
+<footer class="site-footer">
+  <div class="main">
+    <p>© {{ site.title | default: "Ayan Niftaliyeva" }} — <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    <p>
+      <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener">LinkedIn</a>
+    </p>
+  </div>
+</footer>

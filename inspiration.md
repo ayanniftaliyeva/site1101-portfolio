@@ -2,7 +2,7 @@
 layout: default
 title: Inspiration & Vision
 ---
-
+<a class="skip-link" href="#main-content">Skip to content</a>
 <header>
   <nav>
     <div class="nav-inner">
@@ -37,11 +37,21 @@ This gallery represents my inspirations, aspirations, and the visual language th
       </ul>
     </nav>
   </aside>
-  <div class="content">
+  <div class="content" id="main-content">
 
 <div class="vision-grid">
   <div class="item"><img src="{{ site.baseurl }}/assets/images/vision1.jpg" alt="Vision 1"></div>
   <div class="item"><img src="{{ site.baseurl }}/assets/images/vision2.jpg" alt="Vision 2"></div>
+
+      <footer class="site-footer">
+        <div class="main">
+          <p>© {{ site.title | default: "Ayan Niftaliyeva" }} — <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+          <p>
+            <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener">LinkedIn</a>
+          </p>
+        </div>
+      </footer>
   <div class="item"><img src="{{ site.baseurl }}/assets/images/vision3.jpg" alt="Vision 3"></div>
   <div class="item"><img src="{{ site.baseurl }}/assets/images/vision4.jpg" alt="Vision 4"></div>
   <div class="item"><img src="{{ site.baseurl }}/assets/images/vision5.jpg" alt="Vision 5"></div>

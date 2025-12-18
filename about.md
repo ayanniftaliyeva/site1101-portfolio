@@ -3,6 +3,7 @@ layout: default
 title: About Me
 ---
 
+<a class="skip-link" href="#main-content">Skip to content</a>
 <header>
 	<nav>
 		<div class="nav-inner">
@@ -20,7 +21,7 @@ title: About Me
 	</nav>
 </header>
 
-<div class="layout-with-sidebar">
+	<div class="layout-with-sidebar">
 	<aside class="sidebar sticky">
 		<img src="{{ site.baseurl }}/assets/images/portfolio-photo.jpeg" alt="Ayan Niftaliyeva" class="profile-photo">
 		<div class="sidebar-name">Systems Architect</div>
@@ -34,7 +35,7 @@ title: About Me
 			</ul>
 		</nav>
 	</aside>
-	<div class="content">
+	<div class="content" id="main-content">
 
 # I am a **Freshman in the School of IT and Engineering (SITE)** at ADA University, driven by a passion for building systems that matter. As a natural perfectionist, I approach every project with disciplined study and thoughtful strategy.
 

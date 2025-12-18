@@ -148,6 +148,19 @@
     });
   }
 
+  // keep active state in sync when navigation changes
+  function watchNavUpdates(){
+    window.addEventListener('popstate', highlightActiveNav);
+    window.addEventListener('hashchange', highlightActiveNav);
+    // delegate clicks to set active quickly
+    document.addEventListener('click', (e)=>{
+      const a = e.target.closest('.sidebar-nav a');
+      if(!a) return;
+      // small timeout to allow navigation to update URL
+      setTimeout(highlightActiveNav, 40);
+    });
+  }
+
   // Initialize all interactions
   function init() {
     setupReveal();
@@ -156,6 +169,7 @@
     initTheme();
     setupThemeToggle();
     highlightActiveNav();
+    watchNavUpdates();
   }
 
   // Run on DOM ready
