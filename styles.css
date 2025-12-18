@@ -67,11 +67,11 @@ body {
 
 /* Typography */
 h1 {
-  font-size: clamp(2.5rem, 8vw, 4.2rem);
+  font-size: clamp(3rem, 9.5vw, 5.2rem);
   font-weight: 900;
-  line-height: 1.1;
-  letter-spacing: -0.02em;
-  margin-bottom: 1.2rem;
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.6rem;
 }
 
 h2 {
@@ -130,13 +130,19 @@ nav {
   align-items: center;
   max-width: 1400px;
   width: 100%;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
+  gap: 1rem;
 }
+
+.brand img{width:28px;height:28px;border-radius:50%;object-fit:cover;display:block}
 
 .nav-links {
   display: flex;
-  gap: 3rem;
+  gap: 1.5rem;
   list-style: none;
+  align-items: center;
+  flex-wrap: wrap; /* allow wrapping on narrow screens */
+  min-width: 0; /* allow flex children to shrink properly */
 }
 
 .nav-links li{display:flex;align-items:center}
@@ -188,20 +194,14 @@ main {
   padding: 0 2rem;
 }
 
-.nav-links {
-  display: flex;
-  gap: 2rem;
-  list-style: none;
-  align-items: center;
-}
-
 .nav-links a {
-  font-size: 0.95rem;
-  font-weight: 500;
+  font-size: 0.92rem;
+  font-weight: 600;
   letter-spacing: 0.02em;
   color: var(--text);
   padding: 0.3rem 0;
   position: relative;
+  white-space: nowrap;
 }
 
 .nav-links a::after {
@@ -217,7 +217,6 @@ main {
 
 .nav-links a:hover::after{
   width:100%;
-}
 }
 
 #profile-summary .profile-parallax:hover img {
@@ -420,17 +419,31 @@ footer p {
 .related-list a{color:var(--text);font-weight:500}
 
 /* Layout with sidebar */
-.layout-with-sidebar{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:260px 1fr;gap:2rem;padding:2rem}
-.sidebar{padding:1rem 0}
-.profile-photo{width:220px;height:220px;border-radius:50%;object-fit:cover;display:block;margin:0 auto 1rem;box-shadow:0 8px 30px rgba(0,0,0,0.08);border:4px solid rgba(0,0,0,0.03)}
-.sidebar-nav ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:0.6rem}
-.sidebar-nav a{display:block;padding:0.45rem 0.6rem;border-radius:8px;color:var(--text);font-weight:600}
-.sidebar-nav a:hover{background:rgba(0,0,0,0.04)}
+.layout-with-sidebar{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:200px 1fr;gap:3rem;padding:2.5rem 2rem}
+.sidebar{padding:0}
+.sidebar{display:flex;flex-direction:column;align-items:center}
+.sidebar.sticky{position:sticky;top:2.5rem;align-self:start}
+.profile-photo{width:120px;height:120px;border-radius:50%;object-fit:cover;display:block;margin:0 0 1rem;box-shadow:none;border:2px solid rgba(0,0,0,0.04)}
+.sidebar-nav ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:0.4rem;width:100%}
+.sidebar-nav a{display:block;padding:0.35rem 0;color:var(--muted);font-weight:700;text-align:center;border-radius:6px;text-transform:uppercase;letter-spacing:0.12em;font-size:0.82rem}
+.sidebar-nav a:hover{background:rgba(0,0,0,0.03);color:var(--text)}
+.sidebar-nav a.active{color:var(--text);font-weight:900}
+.content{max-width:720px;padding-left:0}
 
 @media (max-width:900px){
   .layout-with-sidebar{grid-template-columns:1fr; padding:1rem}
   .profile-photo{width:150px;height:150px}
   header{position:static}
+}
+
+/* Hide top header on wider screens and use the sidebar nav as primary */
+@media (min-width:901px) {
+  header{display:none}
+  .layout-with-sidebar{grid-template-columns:200px 1fr;padding:3rem 2rem;gap:3.2rem}
+  .sidebar{align-items:flex-start}
+  .sidebar{padding-left:0}
+  .sidebar.sticky{position:sticky;top:4rem}
+  .content{padding-left:0}
 }
 
 /* Masonry-like vision grid using CSS columns */

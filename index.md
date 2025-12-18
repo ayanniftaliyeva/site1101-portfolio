@@ -21,7 +21,7 @@ title: Home
 </header>
 
 <div class="layout-with-sidebar">
-  <aside class="sidebar">
+  <aside class="sidebar sticky">
     <img src="{{ site.baseurl }}/assets/images/portfolio-photo.jpeg" alt="Ayan Niftaliyeva" class="profile-photo">
     <nav class="sidebar-nav" aria-label="Primary">
       <ul>
