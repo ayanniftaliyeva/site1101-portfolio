@@ -3,6 +3,31 @@ layout: default
 title: Home
 ---
 
+<header>
+  <nav>
+    <div class="nav-inner">
+      <div class="brand"><a href="{{ site.baseurl }}/index.html">Ayan</a></div>
+      <ul class="nav-links">
+        <li><a href="{{ site.baseurl }}/index.html"><span class="icon" aria-hidden="true"><!-- home -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg"><path d="M3 10.5L12 4l9 6.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 21V12h6v9" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>Home</a></li>
+        <li><a href="{{ site.baseurl }}/about.html"><span class="icon" aria-hidden="true"><!-- user -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="7" r="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>About</a></li>
+        <li><a href="{{ site.baseurl }}/projects.html"><span class="icon" aria-hidden="true"><!-- folder -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 7h6l2 3h10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>Projects</a></li>
+        <li><a href="{{ site.baseurl }}/inspiration.html"><span class="icon" aria-hidden="true"><!-- grid -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="8" height="8" rx="1"/><rect x="13" y="3" width="8" height="8" rx="1"/><rect x="3" y="13" width="8" height="8" rx="1"/><rect x="13" y="13" width="8" height="8" rx="1"/></svg>
+            </span>Vision Board</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle day night">🌙</button>
+      </div>
+    </div>
+  </nav>
+</header>
+
 # Ayan Niftaliyeva
 ## Systems Architect • Event Leader • Information Systems Student
 
