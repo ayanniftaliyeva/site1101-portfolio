@@ -26,6 +26,8 @@ This gallery represents my inspirations, aspirations, and the visual language th
 <div class="layout-with-sidebar">
   <aside class="sidebar sticky">
     <img src="{{ site.baseurl }}/assets/images/portfolio-photo.jpeg" alt="Ayan Niftaliyeva" class="profile-photo">
+    <div class="sidebar-name">Systems Architect</div>
+    <div class="sidebar-fullname">Ayan Niftaliyeva</div>
     <nav class="sidebar-nav" aria-label="Primary">
       <ul>
         <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
