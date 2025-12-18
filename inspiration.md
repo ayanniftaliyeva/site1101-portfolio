@@ -9,90 +9,36 @@ This gallery represents my inspirations, aspirations, and the visual language th
 
 ---
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 40px 0;">
-  <div style="overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); aspect-ratio: 1;">
-    <img src="{{ site.baseurl }}/assets/images/vision1.jpg" alt="Vision Board 1" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
-  </div>
-  
-  <div style="overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); aspect-ratio: 1;">
-    <img src="{{ site.baseurl }}/assets/images/vision2.jpg" alt="Vision Board 2" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
-  </div>
-  
-  <div style="overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); aspect-ratio: 1;">
-    <img src="{{ site.baseurl }}/assets/images/vision3.jpg" alt="Vision Board 3" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
-  </div>
+<style>
+.vision-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:40px 0;}
+.vision-grid img{width:100%;height:auto;display:block;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.06);}
+.vision-grid .item{overflow:hidden;border-radius:8px;background:#f7f7f7;padding:6px}
+@media (max-width:900px){.vision-grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:600px){.vision-grid{grid-template-columns:1fr}}
+</style>
 
-  <div style="overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); aspect-ratio: 1;">
-    <img src="{{ site.baseurl }}/assets/images/vision4.jpg" alt="Vision Board 4" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
-  </div>
-  
-  <div style="overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); aspect-ratio: 1;">
-    <img src="{{ site.baseurl }}/assets/images/vision5.jpg" alt="Vision Board 5" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
-  </div>
-  
-  <div style="overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); aspect-ratio: 1;">
-    <img src="{{ site.baseurl }}/assets/images/vision6.jpg" alt="Vision Board 6" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
-  </div>
-
-  <div style="overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); aspect-ratio: 1;">
-    <img src="{{ site.baseurl }}/assets/images/vision7.jpg" alt="Vision Board 7" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
-  </div>
-  
-  <div style="overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); aspect-ratio: 1;">
-    <img src="{{ site.baseurl }}/assets/images/vision8.jpg" alt="Vision Board 8" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
-  </div>
-  
-  <div style="overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); aspect-ratio: 1;">
-    <img src="{{ site.baseurl }}/assets/images/vision9.jpg" alt="Vision Board 9" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
-  </div>
-
-  <div style="overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); aspect-ratio: 1;">
-    <img src="{{ site.baseurl }}/assets/images/vision10.jpg" alt="Vision Board 10" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
-  </div>
-  
-  <div style="overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); aspect-ratio: 1;">
-    <img src="{{ site.baseurl }}/assets/images/vision11.jpg" alt="Vision Board 11" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
-  </div>
-  
-  <div style="overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); aspect-ratio: 1;">
-    <img src="{{ site.baseurl }}/assets/images/vision12.jpg" alt="Vision Board 12" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
-  </div>
-
-  <div style="overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); aspect-ratio: 1;">
-    <img src="{{ site.baseurl }}/assets/images/vision13.jpg" alt="Vision Board 13" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
-  </div>
-  
-  <div style="overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); aspect-ratio: 1;">
-    <img src="{{ site.baseurl }}/assets/images/vision14.jpg" alt="Vision Board 14" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
-  </div>
-  
-  <div style="overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); aspect-ratio: 1;">
-    <img src="{{ site.baseurl }}/assets/images/vision15.jpg" alt="Vision Board 15" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
-  </div>
-
-  <div style="overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); aspect-ratio: 1;">
-    <img src="{{ site.baseurl }}/assets/images/vision16.jpg" alt="Vision Board 16" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
-  </div>
-  
-  <div style="overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); aspect-ratio: 1;">
-    <img src="{{ site.baseurl }}/assets/images/vision17.jpg" alt="Vision Board 17" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
-  </div>
-  
-  <div style="overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); aspect-ratio: 1;">
-    <img src="{{ site.baseurl }}/assets/images/vision18.jpg" alt="Vision Board 18" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
-  </div>
-
-  <div style="overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); aspect-ratio: 1;">
-    <img src="{{ site.baseurl }}/assets/images/vision19.jpg" alt="Vision Board 19" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
-  </div>
-  
-  <div style="overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); aspect-ratio: 1;">
-    <img src="{{ site.baseurl }}/assets/images/vision20.jpg" alt="Vision Board 20" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
-  </div>
-  
-  <div style="overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); aspect-ratio: 1;">
-    <img src="{{ site.baseurl }}/assets/images/vision21.jpg" alt="Vision Board 21" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
-  </div>
+<div class="vision-grid">
+  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision1.jpg" alt="Vision 1"></div>
+  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision2.jpg" alt="Vision 2"></div>
+  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision3.jpg" alt="Vision 3"></div>
+  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision4.jpg" alt="Vision 4"></div>
+  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision5.jpg" alt="Vision 5"></div>
+  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision6.jpg" alt="Vision 6"></div>
+  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision7.jpg" alt="Vision 7"></div>
+  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision8.jpg" alt="Vision 8"></div>
+  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision9.jpg" alt="Vision 9"></div>
+  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision10.jpg" alt="Vision 10"></div>
+  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision11.jpg" alt="Vision 11"></div>
+  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision12.jpg" alt="Vision 12"></div>
+  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision13.jpg" alt="Vision 13"></div>
+  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision14.jpg" alt="Vision 14"></div>
+  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision15.jpg" alt="Vision 15"></div>
+  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision16.jpg" alt="Vision 16"></div>
+  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision17.jpg" alt="Vision 17"></div>
+  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision18.jpg" alt="Vision 18"></div>
+  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision19.jpg" alt="Vision 19"></div>
+  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision20.jpg" alt="Vision 20"></div>
+  <div class="item"><img src="{{ site.baseurl }}/assets/images/vision21.jpg" alt="Vision 21"></div>
 </div>
 
 ---
