@@ -439,6 +439,14 @@ footer p {
   .content{max-width:640px}
 }
 
+/* Fixed left rail on very wide screens to match reference layout */
+@media (min-width:1200px) {
+  .layout-with-sidebar{display:block}
+  .sidebar{position:fixed;left:28px;top:32px;width:220px}
+  .sidebar.sticky{position:fixed;top:32px}
+  .content{margin-left:300px;padding-left:0}
+}
+
 @media (max-width:900px){
   .layout-with-sidebar{grid-template-columns:1fr; padding:1rem}
   .profile-photo{width:150px;height:150px}

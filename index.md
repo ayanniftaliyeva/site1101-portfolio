@@ -6,7 +6,7 @@ title: Home
 <header>
   <nav>
     <div class="nav-inner">
-      <div class="brand"><a href="{{ site.baseurl }}/index.html"><img src="{{ site.baseurl }}/assets/images/portfolio-photo.jpeg" alt="Ayan" style="width:36px;height:36px;border-radius:50%;object-fit:cover;margin-right:10px;vertical-align:middle">Ayan</a></div>
+      <div class="brand"><a href="{{ site.baseurl }}/index.html"><img src="{{ site.baseurl }}/assets/images/portfolio-photo.jpeg" alt="Ayan" /></a></div>
       <ul class="nav-links">
         <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
         <li><a href="{{ site.baseurl }}/about.html">About</a></li>

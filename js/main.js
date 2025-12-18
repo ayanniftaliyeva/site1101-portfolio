@@ -123,6 +123,31 @@
     });
   }
 
+  // Highlight active sidebar nav link based on current URL
+  function highlightActiveNav(){
+    const anchors = document.querySelectorAll('.sidebar-nav a');
+    if(!anchors.length) return;
+    const normalize = (u) => {
+      try{
+        const url = new URL(u, location.origin);
+        let p = url.pathname + (url.hash || '');
+        // remove trailing slash and index.html
+        p = p.replace(/index\.html$/, '');
+        if(p.endsWith('/')) p = p.slice(0, -1);
+        return p;
+      } catch(e){ return u }
+    };
+    const current = normalize(location.pathname + location.hash);
+    anchors.forEach(a => {
+      const target = normalize(a.getAttribute('href'));
+      if(target === current || current.endsWith(target) || target.endsWith(current)){
+        a.classList.add('active');
+      } else {
+        a.classList.remove('active');
+      }
+    });
+  }
+
   // Initialize all interactions
   function init() {
     setupReveal();
@@ -130,6 +155,7 @@
     setupSmoothLinks();
     initTheme();
     setupThemeToggle();
+    highlightActiveNav();
   }
 
   // Run on DOM ready
