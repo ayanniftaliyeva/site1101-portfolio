@@ -2,30 +2,29 @@
 layout: default
 title: Projects & Experience
 ---
-<link rel="stylesheet" href="{{ site.baseurl }}/clean.css">
 <header class="top-nav">
-  <div class="inner">
+  <div class="nav-inner">
     <div class="brand"><a href="{{ site.baseurl }}/index.html">Ayan</a></div>
-    <nav class="center-nav">
+    <nav class="center-links">
       <a href="{{ site.baseurl }}/index.html">Home</a>
       <a href="{{ site.baseurl }}/about.html">About</a>
       <a href="{{ site.baseurl }}/projects.html">Projects</a>
-      <a href="{{ site.baseurl }}/inspiration.html">Inspiration</a>
+      <a href="{{ site.baseurl }}/inspiration.html">Vision Board</a>
     </nav>
-    <div class="right"><button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌙</button></div>
+    <button id="theme-btn" class="theme-btn" aria-label="Toggle theme">🌙</button>
   </div>
 </header>
 
-<div class="site-wrapper">
+<div class="page-container">
   <aside class="sidebar">
     <img src="{{ site.baseurl }}/assets/images/portfolio-photo.jpeg" alt="Ayan Niftaliyeva" class="profile-photo">
-    <div class="socials">
-      <a href="https://github.com/{{ site.github_username }}" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank">LinkedIn</a>
+    <div class="social-links">
+      <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener">LinkedIn</a>
       <a href="mailto:{{ site.email }}">Email</a>
     </div>
   </aside>
-  <div class="content" id="main-content">
+  <div class="content">
 
 # My work reflects my commitment to **systems thinking, technical excellence, and human-centered design**. Below are key projects that demonstrate my capabilities across event leadership, technical programming, and strategic collaboration.
 
@@ -74,7 +73,7 @@ I coordinated and facilitated an Hour of Code event focused on teaching algorith
 - Facilitated hands-on coding sessions and provided mentorship
 - Documented the event through photography and videography
 
-**Impact:** Led 23 students from suburban/rural areas for Hour of Code, applying Information Systems principles.
+**Impact:** Led and managed 23 students from suburban and rural (non-central) areas, applying core Information Systems principles.
 
 <img src="{{ site.baseurl }}/assets/images/hoc-photo.jpeg" alt="Hour of Code Event" style="width: 100%; border-radius: 12px; box-shadow: 0 6px 18px rgba(0,0,0,0.08); margin: 20px 0;">
 

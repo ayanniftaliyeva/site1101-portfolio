@@ -8,11 +8,11 @@
     if(theme === 'dark'){
       html.setAttribute('data-theme','dark');
       localStorage.setItem('site-theme','dark');
-      const btn = document.getElementById('theme-toggle'); if(btn) btn.textContent = '🌙';
+      const btn = document.getElementById('theme-btn'); if(btn) btn.textContent = '🌙';
     } else {
       html.removeAttribute('data-theme');
       localStorage.setItem('site-theme','light');
-      const btn = document.getElementById('theme-toggle'); if(btn) btn.textContent = '☀️';
+      const btn = document.getElementById('theme-btn'); if(btn) btn.textContent = '☀️';
     }
   }
 
@@ -24,7 +24,7 @@
   }
 
   function setupThemeToggle(){
-    const btn = document.getElementById('theme-toggle');
+    const btn = document.getElementById('theme-btn');
     if(!btn) return;
     btn.addEventListener('click', function(){
       const current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';

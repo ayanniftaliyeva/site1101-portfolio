@@ -2,31 +2,29 @@
 layout: default
 title: About Me
 ---
-
-<link rel="stylesheet" href="{{ site.baseurl }}/clean.css">
 <header class="top-nav">
-  <div class="inner">
+  <div class="nav-inner">
     <div class="brand"><a href="{{ site.baseurl }}/index.html">Ayan</a></div>
-    <nav class="center-nav">
+    <nav class="center-links">
       <a href="{{ site.baseurl }}/index.html">Home</a>
       <a href="{{ site.baseurl }}/about.html">About</a>
       <a href="{{ site.baseurl }}/projects.html">Projects</a>
-      <a href="{{ site.baseurl }}/inspiration.html">Inspiration</a>
+      <a href="{{ site.baseurl }}/inspiration.html">Vision Board</a>
     </nav>
-    <div class="right"><button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌙</button></div>
+    <button id="theme-btn" class="theme-btn" aria-label="Toggle theme">🌙</button>
   </div>
 </header>
 
-<div class="site-wrapper">
+<div class="page-container">
 	<aside class="sidebar">
 		<img src="{{ site.baseurl }}/assets/images/portfolio-photo.jpeg" alt="Ayan Niftaliyeva" class="profile-photo">
-		<div class="socials">
-			<a href="https://github.com/{{ site.github_username }}" target="_blank">GitHub</a>
-			<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank">LinkedIn</a>
+		<div class="social-links">
+			<a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a>
+			<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener">LinkedIn</a>
 			<a href="mailto:{{ site.email }}">Email</a>
 		</div>
 	</aside>
-	<div class="content" id="main-content">
+	<div class="content">
 
 # I am a **Freshman in the School of IT and Engineering (SITE)** at ADA University, driven by a passion for building systems that matter. As a natural perfectionist, I approach every project with disciplined study and thoughtful strategy.
 
@@ -87,5 +85,7 @@ I'm building a foundation as a systems architect today so that tomorrow I can sc
 		<li><a href="{{ site.baseurl }}/projects.html">Projects &amp; Experience</a></li>
 		<li><a href="{{ site.baseurl }}/inspiration.html">Vision Board</a></li>
 	</ul>
-</div>
+</nav>
+
+	</div>
 </div>
